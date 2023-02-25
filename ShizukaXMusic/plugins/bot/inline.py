@@ -5,7 +5,7 @@ from pyrogram.types import (
 )
 from youtubesearchpython.__future__ import VideosSearch
 
-from config import BANNED_USERS, MUSIC_BOT_NAME
+from config import BANNED_USERS, 𝗟𝟮𝗙 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧
 from ShizukaXMusic import app
 from ShizukaXMusic.utils.inlinequery import answer
 
@@ -51,7 +51,7 @@ async def inline_query_handler(client, query):
 🎥**ᴄʜᴀɴɴᴇʟ:** {channel}
 📎**ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
 
-💖 ** sᴇᴀʀᴄʜ ᴩᴏᴡᴇʀᴇᴅ ʙʏ {MUSIC_BOT_NAME} **"""
+💖 ** sᴇᴀʀᴄʜ ᴩᴏᴡᴇʀᴇᴅ ʙʏ {𝗟𝟮𝗙 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧} **"""
             answers.append(
                 InlineQueryResultPhoto(
                     photo_url=thumbnail,
