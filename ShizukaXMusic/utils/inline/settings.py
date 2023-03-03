@@ -1,5 +1,5 @@
 from typing import Union
-
+from config import SUPPORT_GROUP
 from pyrogram.types import InlineKeyboardButton
 
 
@@ -20,7 +20,7 @@ def setting_markup(_):
         [
             InlineKeyboardButton(
                 text="• Sᴜᴩᴩᴏʀᴛ •",
-                url="https://t.me/Best_FriendsFor_Ever",
+                url=f"{SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ],

@@ -1,5 +1,5 @@
 from pyrogram.types import InlineKeyboardButton
-
+from config import SUPPORT_GROUP
 
 def song_markup(_, vidid):
     buttons = [
@@ -16,7 +16,7 @@ def song_markup(_, vidid):
         [
             InlineKeyboardButton(
                 text="• sᴜᴩᴩᴏʀᴛ •",
-                url="https://t.me/Best_FriendsFor_Ever",
+                url=f"{SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ],
